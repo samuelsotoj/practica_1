@@ -1,0 +1,33 @@
+@charset "utf-8";
+[subtitulo] {
+	color: darkgreen;
+}
+
+enlace {
+	color: blue;
+	font-weight: bold;
+}
+
+enlace:visited {
+	color: blue;
+}
+
+enlace:hover,
+enlace:active,
+enlace:focus {
+	color: darkred;
+	text-decoration: none;
+}
+
+.nombre {
+	text-decoration: underline;
+	position: relative;
+	top: 80px;
+	left: 530px;
+}
+
+.telefono {
+	position: relative;
+	top: 100px;
+	left: 530px;
+}
